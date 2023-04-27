@@ -1,0 +1,5 @@
+cargo run
+cargo build
+cross build --target x86_64-unknown-linux-gnu --release
+cargo build --release
+printenv
